@@ -4,6 +4,12 @@
 	],
 	"installed_packages":
 	[
-		"Package Control"
+		"Better CoffeeScript",
+		"CTags",
+		"Package Control",
+		"Ruby on Rails snippets",
+		"Ruby Slim",
+		"SCSS",
+		"SideBarEnhancements"
 	]
 }
