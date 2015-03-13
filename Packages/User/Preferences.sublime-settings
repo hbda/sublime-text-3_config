@@ -18,5 +18,7 @@
 	"translate_tabs_to_spaces": true,
 	"vintage_start_in_command_mode": true,
 	"word_separators": "./\\()\"'-:,.;<>~@#$%^&*|+=[]{}`~_",
-	"word_wrap": false
+	"word_wrap": false,
+	"remember_open_files": false,
+	"hot_exit": false
 }
