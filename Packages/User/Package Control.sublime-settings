@@ -5,11 +5,24 @@
 	"installed_packages":
 	[
 		"Better CoffeeScript",
+		"BracketHighlighter",
+		"CSS3",
 		"CTags",
+		"jQuery",
 		"Package Control",
+		"RailsCasts Colour Scheme",
+		"RSpec",
 		"Ruby on Rails snippets",
 		"Ruby Slim",
+		"Sass",
 		"SCSS",
-		"SideBarEnhancements"
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-coffee",
+		"SublimeLinter-jshint",
+		"SublimeLinter-ruby",
+		"Theme - Soda",
+		"TrailingSpaces"
 	]
 }

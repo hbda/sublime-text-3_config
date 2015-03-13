@@ -1,9 +1,22 @@
 {
+	"auto_complete_commit_on_tab": true,
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"font_face": "Monaco for Powerline",
 	"font_size": 12,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"CSS"
 	],
+	"rulers":
+	[
+		80,
+		120
+	],
+	"scroll_past_end": false,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
-	"vintage_start_in_command_mode": true
+	"vintage_start_in_command_mode": true,
+	"word_separators": "./\\()\"'-:,.;<>~@#$%^&*|+=[]{}`~_",
+	"word_wrap": false
 }
