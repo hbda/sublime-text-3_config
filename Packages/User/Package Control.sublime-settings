@@ -8,6 +8,7 @@
 		"BracketHighlighter",
 		"CSS3",
 		"CTags",
+		"ImprovedMacros",
 		"jQuery",
 		"Package Control",
 		"RailsCasts Colour Scheme",
@@ -24,5 +25,9 @@
 		"SublimeLinter-ruby",
 		"Theme - Soda",
 		"TrailingSpaces"
+	],
+	"repositories":
+	[
+		"https://github.com/skuroda/ImprovedMacros"
 	]
 }

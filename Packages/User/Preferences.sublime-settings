@@ -4,10 +4,12 @@
 	"font_face": "Monaco for Powerline",
 	"font_size": 12,
 	"highlight_modified_tabs": true,
+	"hot_exit": false,
 	"ignored_packages":
 	[
 		"CSS"
 	],
+	"remember_open_files": false,
 	"rulers":
 	[
 		80,
@@ -18,7 +20,5 @@
 	"translate_tabs_to_spaces": true,
 	"vintage_start_in_command_mode": true,
 	"word_separators": "./\\()\"'-:,.;<>~@#$%^&*|+=[]{}`~_",
-	"word_wrap": false,
-	"remember_open_files": false,
-	"hot_exit": false
+	"word_wrap": false
 }
