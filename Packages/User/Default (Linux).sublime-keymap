@@ -6,5 +6,19 @@
         { "key": "setting.is_widget", "operand": false }
     ]
   },
-  { "keys": [",", "t"], "command": "delete_trailing_spaces" }
+  { "keys": [",", "t"], "command": "delete_trailing_spaces" },
+  { "keys": ["ctrl+k"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false} },
+  { "keys": ["ctrl+j"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true} },
+  { "keys": ["ctrl+r"], "command": "redo",
+      "context":
+      [
+        { "key": "setting.command_mode", "operand": true },
+    ]
+  },
+  { "keys": ["\\", "n"], "command": "toggle_side_bar",
+      "context":
+      [
+        { "key": "setting.command_mode", "operand": true },
+    ]
+  }
 ]
