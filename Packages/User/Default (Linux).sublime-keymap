@@ -36,5 +36,14 @@
       [
         { "key": "setting.command_mode", "operand": true },
     ]
-  }
+  },
+  { "keys": ["ctrl+c"], "command": "run_multiple_commands", "args": {
+      "commands": [
+        {"command": "copy"},
+        {"command": "exit_visual_mode"},
+      ]
+    },
+    "context": [{ "key": "selection_empty", "operand": false }]
+  },
+
 ]
