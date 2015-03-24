@@ -1,0 +1,48 @@
+[
+  { "keys": ["ctrl+c"], "command": "exit_insert_mode",
+      "context":
+      [
+        { "key": "setting.command_mode", "operand": false },
+        { "key": "setting.is_widget", "operand": false }
+    ]
+  },
+  { "keys": [",", "t"], "command": "delete_trailing_spaces" },
+  { "keys": ["ctrl+k"], "command": "run_multiple_commands", "args": {
+      "commands": [
+        {"command": "push_repeat_digit", "args": {"digit": 1}},
+        {"command": "push_repeat_digit", "args": {"digit": 0}},
+        {"command": "set_motion", "args": {"linewise": true, "motion": "move", "motion_args": {"by": "lines", "extend": true, "forward": false}}},
+      ]
+    },
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { "keys": ["ctrl+j"], "command": "run_multiple_commands", "args": {
+      "commands": [
+        {"command": "push_repeat_digit", "args": {"digit": 1}},
+        {"command": "push_repeat_digit", "args": {"digit": 0}},
+        {"command": "set_motion", "args": {"linewise": true, "motion": "move", "motion_args": {"by": "lines", "extend": true, "forward": true}}},
+      ]
+    },
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { "keys": ["\\", "n"], "command": "toggle_side_bar",
+      "context":
+      [
+        { "key": "setting.command_mode", "operand": true },
+    ]
+  },
+  { "keys": [",", " "], "command": "toggle_comment",
+      "context":
+      [
+        { "key": "setting.command_mode", "operand": true },
+    ]
+  },
+  { "keys": ["ctrl+c"], "command": "run_multiple_commands", "args": {
+      "commands": [
+        {"command": "copy"},
+        {"command": "exit_visual_mode"},
+      ]
+    },
+    "context": [{ "key": "selection_empty", "operand": false }]
+  },
+]
