@@ -1,6 +1,7 @@
 /*/
+!/Packages/
+/Packages/*/
 !/Packages/User/
-Packages/User/Package Control.cache/
-/**/*.last-run
-/**/*.merged-ca-bundle
-/**/*.user-ca-bundle
+/Packages/User/*
+!/**/*.sublime-keymap
+!/**/*.sublime-settings
