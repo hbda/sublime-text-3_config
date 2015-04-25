@@ -45,4 +45,23 @@
     },
     "context": [{ "key": "selection_empty", "operand": false }]
   },
+  { "keys": ["enter"], "command": "run_multiple_commands", "args": {
+      "commands": [
+        {"command": "set_motion", "args": {"linewise": true, "motion": "move", "motion_args": {"by": "lines", "extend": false, "forward": true}}},
+        {"command": "move_to", "args": {"to": "hardbol"}},
+        {"command": "insert", "args": {"characters": "\n"}},
+        {"command": "set_motion", "args": {"linewise": true, "motion": "move", "motion_args": {"by": "lines", "extend": false, "forward": false}}},
+      ]
+    },
+    "context": [{ "key": "setting.command_mode", "operand": true }]
+  },
+  { "keys": ["shift+enter"], "command": "run_multiple_commands", "args": {
+      "commands": [
+        {"command": "move_to", "args": {"to": "hardbol"}},
+        {"command": "insert", "args": {"characters": "\n"}},
+        {"command": "set_motion", "args": {"linewise": true, "motion": "move", "motion_args": {"by": "lines", "extend": false, "forward": false}}},
+      ]
+    },
+    "context": [{ "key": "setting.command_mode", "operand": true }]
+  },
 ]
