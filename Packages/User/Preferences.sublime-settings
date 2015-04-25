@@ -1,6 +1,6 @@
 {
 	"auto_complete_commit_on_tab": true,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/base16-railscasts.dark (SL).tmTheme",
 	"font_face": "Monaco for Powerline",
 	"font_size": 12,
 	"highlight_modified_tabs": true,
@@ -16,10 +16,14 @@
 		120
 	],
 	"scroll_past_end": false,
+	"show_minimap": false,
 	"tab_size": 2,
+	"theme": "Asphalt-blue.sublime-theme",
+	"theme_asphalt_show_dirty_tabs": false,
+	"theme_asphalt_status_bar_brighter": true,
+	"theme_asphalt_tabs_small": true,
 	"translate_tabs_to_spaces": true,
 	"vintage_start_in_command_mode": true,
 	"word_separators": "./\\()\"'-:,.;<>~@#$%^&*|+=[]{}`~_",
-	"word_wrap": false,
-	"show_minimap": false
+	"word_wrap": false
 }
